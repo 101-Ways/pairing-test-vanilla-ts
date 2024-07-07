@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600&display=swap" rel="stylesheet">
+    <title>EPG</title>
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: 'Exo 2', sans-serif;
+
+        }
+
+        #slider {
+            display: block;
+            padding: 10px;
+            background-color: #fcf004b7;
+            z-index: 10;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            border-radius: 8px;
+            margin: 10px;
+            width: 100%;
+        }
+
+        #main {
+            display: block;
+            position: relative;
+            /* overflow: hidden;
+            width: 100%;
+            border: rgb(0, 255, 238) 3px solid;
+            height: 1000px;
+            box-sizing: border-box; */
+
+        }
+
+        .box {
+            background-color: blue;
+        }
+
+        #holder {
+            transform: scale(1);
+        }
+    </style>
+</head>
+<script src="bundle.js"></script>
+
+<body>
+    <div id="root"></div>
+
+</body>
+
+</html>
